@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01_Login" time="71.695" tests="2" failures="1" errors="0">
+   <testsuite name="01_Login" tests="2" failures="1" errors="0" time="71.695" timestamp="2019-11-08 08:43:41" hostname="lozturk - 10.4.100.158" id="Test Suites/01_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_084339/01_Login/20191108_084339"/>
+         <property name="logFiles" value="/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_084339/01_Login/20191108_084339/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lozturk - 10.4.100.158"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.5.1"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="10.4.100.158"/>
+         <property name="sessionId" value="6e890e971c5dbeb3a00d7b5d457978f8"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/02_First Sample UI_Red/Login_User_Test" time="59.36" classname="Test Cases/02_First Sample UI_Red/Login_User_Test" status="FAILED">
+         <failure type="FAILED" message="Test Cases/02_First Sample UI_Red/Login_User_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login_User_Test.run(Login_User_Test:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573220619624.run(TempTestSuite1573220619624.groovy:36)
+"/>
+         <system-out><![CDATA[2019-11-08 08:43:41 - [TEST_CASE][FAILED] - Test Cases/02_First Sample UI_Red/Login_User_Test: Test Cases/02_First Sample UI_Red/Login_User_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login_User_Test.run(Login_User_Test:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573220619624.run(TempTestSuite1573220619624.groovy:36)
+
+
+2019-11-08 08:43:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-08 08:43:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-08 08:43:41 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-08 08:43:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-08 08:43:43 - [TEST_STEP][PASSED] - navigateToUrl("https://bakery.demo.vaadin.com/login.html"): Navigate to 'https://bakery.demo.vaadin.com/login.html' successfully
+
+2019-11-08 08:43:54 - [MESSAGE][PASSED] - Navigate to 'https://bakery.demo.vaadin.com/login.html' successfully
+
+2019-11-08 08:43:54 - [TEST_STEP][PASSED] - setText(findTestObject("02_Second UI/Page_Bakery/input_Email_username"), "barista@vaadin.com"): Text 'barista@vaadin.com' is set on object 'Object Repository/02_Second UI/Page_Bakery/input_Email_username'
+
+2019-11-08 08:43:54 - [MESSAGE][PASSED] - Text 'barista@vaadin.com' is set on object 'Object Repository/02_Second UI/Page_Bakery/input_Email_username'
+
+2019-11-08 08:43:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("02_Second UI/Page_Bakery/input_Password_password"), "aAAOQOuXuiQ="): Text ****** has been set on object 'Object Repository/02_Second UI/Page_Bakery/input_Password_password'
+
+2019-11-08 08:43:55 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/02_Second UI/Page_Bakery/input_Password_password'
+
+2019-11-08 08:43:55 - [TEST_STEP][PASSED] - click(findTestObject("02_Second UI/Page_Bakery/button_Sign in")): Object: 'Object Repository/02_Second UI/Page_Bakery/button_Sign in' is clicked on
+
+2019-11-08 08:44:38 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Second UI/Page_Bakery/button_Sign in' is clicked on
+
+2019-11-08 08:44:38 - [TEST_STEP][PASSED] - click(findTestObject("02_Second UI/Page_Bakery/div_Storefront")): Object: 'Object Repository/02_Second UI/Page_Bakery/div_Storefront' is clicked on
+
+2019-11-08 08:44:39 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Second UI/Page_Bakery/div_Storefront' is clicked on
+
+2019-11-08 08:44:39 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://bakery.demo.vaadin.com/#!storefront", false): Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!storefront' are matched 
+
+2019-11-08 08:44:39 - [MESSAGE][PASSED] - Current window's url is: 'https://bakery.demo.vaadin.com/#!storefront'
+
+2019-11-08 08:44:39 - [MESSAGE][PASSED] - Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!storefront' are matched 
+
+2019-11-08 08:44:39 - [TEST_STEP][PASSED] - click(findTestObject("02_Second UI/Page_Bakery/div_Dashboard")): Object: 'Object Repository/02_Second UI/Page_Bakery/div_Dashboard' is clicked on
+
+2019-11-08 08:44:40 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Second UI/Page_Bakery/div_Dashboard' is clicked on
+
+2019-11-08 08:44:40 - [TEST_STEP][FAILED] - verifyMatch(getUrl(), "https://bakery.demo.vaadin.com/#!dashboard", false): Unable to verify match between actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login_User_Test.run(Login_User_Test:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573220619624.run(TempTestSuite1573220619624.groovy:36)
+)
+
+2019-11-08 08:44:40 - [MESSAGE][PASSED] - Current window's url is: 'https://bakery.demo.vaadin.com/#!storefront'
+
+2019-11-08 08:44:40 - [MESSAGE][FAILED] - Unable to verify match between actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' (Root cause: com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login_User_Test.run(Login_User_Test:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573220619624.run(TempTestSuite1573220619624.groovy:36)
+)]]></system-out>
+         <system-err><![CDATA[2019-11-08 08:43:41 - [TEST_CASE][FAILED] - Test Cases/02_First Sample UI_Red/Login_User_Test: Test Cases/02_First Sample UI_Red/Login_User_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login_User_Test.run(Login_User_Test:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573220619624.run(TempTestSuite1573220619624.groovy:36)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_First Sample UI_Blue/Login_Admin_Test" time="12.12" classname="Test Cases/01_First Sample UI_Blue/Login_Admin_Test" status="PASSED">
+         <system-out><![CDATA[2019-11-08 08:44:40 - [TEST_CASE][PASSED] - Test Cases/01_First Sample UI_Blue/Login_Admin_Test: Test Cases/01_First Sample UI_Blue/Login_Admin_Test
+
+2019-11-08 08:44:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-08 08:44:41 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+2019-11-08 08:44:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-08 08:44:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-08 08:44:42 - [TEST_STEP][PASSED] - navigateToUrl("https://bakery-flow.demo.vaadin.com/login"): Navigate to 'https://bakery-flow.demo.vaadin.com/login' successfully
+
+2019-11-08 08:44:43 - [MESSAGE][PASSED] - Navigate to 'https://bakery-flow.demo.vaadin.com/login' successfully
+
+2019-11-08 08:44:43 - [TEST_STEP][PASSED] - setText(findTestObject("01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a"), "admin@vaadin.com"): Text 'admin@vaadin.com' is set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a'
+
+2019-11-08 08:44:44 - [MESSAGE][PASSED] - Text 'admin@vaadin.com' is set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a'
+
+2019-11-08 08:44:44 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a'
+
+2019-11-08 08:44:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a'
+
+2019-11-08 08:44:45 - [TEST_STEP][PASSED] - click(findTestObject("01_First_UI/Page_bakery/vaadin-button_Sign in")): Object: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' is clicked on
+
+2019-11-08 08:44:47 - [MESSAGE][PASSED] - Object: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' is clicked on
+
+2019-11-08 08:44:47 - [TEST_STEP][PASSED] - click(findTestObject("01_First_UI/Page_Storefront/a_Users")): Object: 'Object Repository/01_First_UI/Page_Storefront/a_Users' is clicked on
+
+2019-11-08 08:44:48 - [MESSAGE][PASSED] - Object: 'Object Repository/01_First_UI/Page_Storefront/a_Users' is clicked on
+
+2019-11-08 08:44:48 - [TEST_STEP][PASSED] - waitForPageLoad(10, STOP_ON_FAILURE): Wait for page load successfully
+
+2019-11-08 08:44:48 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-08 08:44:48 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-08 08:44:50 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-08 08:44:50 - [TEST_STEP][PASSED] - verifyWindowTitle("Users"): null
+
+2019-11-08 08:44:50 - [TEST_STEP][PASSED] - titleWindow = getWindowTitle(): Current window's title is: 'Users'
+
+2019-11-08 08:44:50 - [MESSAGE][PASSED] - Current window's title is: 'Users'
+
+2019-11-08 08:44:50 - [TEST_STEP][PASSED] - verifyMatch(titleWindow, title, true): Actual text 'Users' and expected text 'Users' are matched  using regular expression
+
+2019-11-08 08:44:50 - [MESSAGE][PASSED] - Actual text 'Users' and expected text 'Users' are matched  using regular expression
+
+2019-11-08 08:44:50 - [TEST_STEP][PASSED] - verifyElementText(findTestObject("01_First_UI/Page_Users/vaadin-grid-cell-content_admin"), "admin"): Actual text and expected text of test object 'Object Repository/01_First_UI/Page_Users/vaadin-grid-cell-content_admin' are matched.
+
+2019-11-08 08:44:51 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/01_First_UI/Page_Users/vaadin-grid-cell-content_admin' are matched.
+
+2019-11-08 08:44:51 - [TEST_STEP][PASSED] - click(findTestObject("01_First_UI/Page_Users/a_Logout")): Object: 'Object Repository/01_First_UI/Page_Users/a_Logout' is clicked on
+
+2019-11-08 08:44:52 - [MESSAGE][PASSED] - Object: 'Object Repository/01_First_UI/Page_Users/a_Logout' is clicked on
+
+2019-11-08 08:44:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-08 08:44:53 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-08 08:43:41 - [TEST_SUITE][FAILED] - 01_Login: Test Cases/02_First Sample UI_Red/Login_User_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login_User_Test.run(Login_User_Test:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573220619624.run(TempTestSuite1573220619624.groovy:36)]]></system-out>
+      <system-err><![CDATA[2019-11-08 08:43:41 - [TEST_SUITE][FAILED] - 01_Login: Test Cases/02_First Sample UI_Red/Login_User_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are not matched
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.doCall(VerifyMatchKeyword.groovy:57)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword$_verifyMatch_closure1.call(VerifyMatchKeyword.groovy)
+	at com.kms.katalon.core.keyword.internal.KeywordMain.runKeyword(KeywordMain.groovy:68)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.verifyMatch(VerifyMatchKeyword.groovy:60)
+	at com.kms.katalon.core.keyword.builtin.VerifyMatchKeyword.execute(VerifyMatchKeyword.groovy:45)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.keyword.BuiltinKeywords.verifyMatch(BuiltinKeywords.groovy:73)
+	at Login_User_Test.run(Login_User_Test:36)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573220619624.run(TempTestSuite1573220619624.groovy:36)]]></system-err>
+   </testsuite>
+</testsuites>
