@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="01_Login" time="71.436" tests="2" failures="1" errors="0">
+   <testsuite name="01_Login" tests="2" failures="1" errors="0" time="71.436" timestamp="2019-11-08 09:09:17" hostname="lozturk - 10.4.100.158" id="Test Suites/01_Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_090915/01_Login/20191108_090915"/>
+         <property name="logFiles" value="/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_090915/01_Login/20191108_090915/execution0.log"/>
+         <property name="attachments" value="/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_090915/01_Login/20191108_090915/1573222227887.png"/>
+         <property name="hostName" value="lozturk - 10.4.100.158"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.5.1"/>
+         <property name="browser" value="Firefox 57.0"/>
+         <property name="hostAddress" value="10.4.100.158"/>
+         <property name="sessionId" value="561ba72f-858a-f34a-bf1d-a2e67b10ed75"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/02_First Sample UI_Red/Login_User_Test" time="20.086" classname="Test Cases/02_First Sample UI_Red/Login_User_Test" status="PASSED">
+         <system-out><![CDATA[2019-11-08 09:09:17 - [TEST_CASE][PASSED] - Test Cases/02_First Sample UI_Red/Login_User_Test: Test Cases/02_First Sample UI_Red/Login_User_Test
+
+2019-11-08 09:09:17 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-08 09:09:18 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-08 09:09:18 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-08 09:09:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-08 09:09:20 - [TEST_STEP][PASSED] - navigateToUrl("https://bakery.demo.vaadin.com/login.html"): Navigate to 'https://bakery.demo.vaadin.com/login.html' successfully
+
+2019-11-08 09:09:22 - [MESSAGE][PASSED] - Navigate to 'https://bakery.demo.vaadin.com/login.html' successfully
+
+2019-11-08 09:09:22 - [TEST_STEP][PASSED] - setText(findTestObject("02_Second UI/Page_Bakery/input_Email_username"), "barista@vaadin.com"): Text 'barista@vaadin.com' is set on object 'Object Repository/02_Second UI/Page_Bakery/input_Email_username'
+
+2019-11-08 09:09:22 - [MESSAGE][PASSED] - Text 'barista@vaadin.com' is set on object 'Object Repository/02_Second UI/Page_Bakery/input_Email_username'
+
+2019-11-08 09:09:22 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("02_Second UI/Page_Bakery/input_Password_password"), "aAAOQOuXuiQ="): Text ****** has been set on object 'Object Repository/02_Second UI/Page_Bakery/input_Password_password'
+
+2019-11-08 09:09:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/02_Second UI/Page_Bakery/input_Password_password'
+
+2019-11-08 09:09:23 - [TEST_STEP][PASSED] - click(findTestObject("02_Second UI/Page_Bakery/button_Sign in")): Object: 'Object Repository/02_Second UI/Page_Bakery/button_Sign in' is clicked on
+
+2019-11-08 09:09:27 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Second UI/Page_Bakery/button_Sign in' is clicked on
+
+2019-11-08 09:09:27 - [TEST_STEP][PASSED] - click(findTestObject("02_Second UI/Page_Bakery/div_Storefront")): Object: 'Object Repository/02_Second UI/Page_Bakery/div_Storefront' is clicked on
+
+2019-11-08 09:09:29 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Second UI/Page_Bakery/div_Storefront' is clicked on
+
+2019-11-08 09:09:29 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-08 09:09:31 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-08 09:09:31 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://bakery.demo.vaadin.com/#!storefront", false): Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!storefront' are matched 
+
+2019-11-08 09:09:31 - [MESSAGE][PASSED] - Current window's url is: 'https://bakery.demo.vaadin.com/#!storefront'
+
+2019-11-08 09:09:31 - [MESSAGE][PASSED] - Actual text 'https://bakery.demo.vaadin.com/#!storefront' and expected text 'https://bakery.demo.vaadin.com/#!storefront' are matched 
+
+2019-11-08 09:09:31 - [TEST_STEP][PASSED] - click(findTestObject("02_Second UI/Page_Bakery/div_Dashboard")): Object: 'Object Repository/02_Second UI/Page_Bakery/div_Dashboard' is clicked on
+
+2019-11-08 09:09:31 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Second UI/Page_Bakery/div_Dashboard' is clicked on
+
+2019-11-08 09:09:31 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-08 09:09:33 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-08 09:09:33 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://bakery.demo.vaadin.com/#!dashboard", false): Actual text 'https://bakery.demo.vaadin.com/#!dashboard' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are matched 
+
+2019-11-08 09:09:33 - [MESSAGE][PASSED] - Current window's url is: 'https://bakery.demo.vaadin.com/#!dashboard'
+
+2019-11-08 09:09:33 - [MESSAGE][PASSED] - Actual text 'https://bakery.demo.vaadin.com/#!dashboard' and expected text 'https://bakery.demo.vaadin.com/#!dashboard' are matched 
+
+2019-11-08 09:09:33 - [TEST_STEP][PASSED] - click(findTestObject("02_Second UI/Page_Bakery/div_Log out")): Object: 'Object Repository/02_Second UI/Page_Bakery/div_Log out' is clicked on
+
+2019-11-08 09:09:35 - [MESSAGE][PASSED] - Object: 'Object Repository/02_Second UI/Page_Bakery/div_Log out' is clicked on
+
+2019-11-08 09:09:35 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+2019-11-08 09:09:37 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+2019-11-08 09:09:37 - [TEST_STEP][PASSED] - verifyMatch(getUrl(), "https://bakery.demo.vaadin.com/login.html#!dashboard", false): Actual text 'https://bakery.demo.vaadin.com/login.html#!dashboard' and expected text 'https://bakery.demo.vaadin.com/login.html#!dashboard' are matched 
+
+2019-11-08 09:09:37 - [MESSAGE][PASSED] - Current window's url is: 'https://bakery.demo.vaadin.com/login.html#!dashboard'
+
+2019-11-08 09:09:37 - [MESSAGE][PASSED] - Actual text 'https://bakery.demo.vaadin.com/login.html#!dashboard' and expected text 'https://bakery.demo.vaadin.com/login.html#!dashboard' are matched 
+
+2019-11-08 09:09:37 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-08 09:09:37 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/01_First Sample UI_Blue/Login_Admin_Test" time="50.513" classname="Test Cases/01_First Sample UI_Blue/Login_Admin_Test" status="FAILED">
+         <failure type="FAILED" message="Test Cases/01_First Sample UI_Blue/Login_Admin_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Login_Admin_Test.run(Login_Admin_Test:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573222155670.run(TempTestSuite1573222155670.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+"/>
+         <system-out><![CDATA[2019-11-08 09:09:37 - [TEST_CASE][FAILED] - Test Cases/01_First Sample UI_Blue/Login_Admin_Test: Test Cases/01_First Sample UI_Blue/Login_Admin_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Login_Admin_Test.run(Login_Admin_Test:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573222155670.run(TempTestSuite1573222155670.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more
+
+
+2019-11-08 09:09:37 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-11-08 09:09:37 - [MESSAGE][INFO] - Starting 'Firefox' driver
+
+2019-11-08 09:09:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-11-08 09:09:40 - [TEST_STEP][PASSED] - navigateToUrl("https://bakery-flow.demo.vaadin.com/login"): Navigate to 'https://bakery-flow.demo.vaadin.com/login' successfully
+
+2019-11-08 09:09:41 - [MESSAGE][PASSED] - Navigate to 'https://bakery-flow.demo.vaadin.com/login' successfully
+
+2019-11-08 09:09:41 - [TEST_STEP][PASSED] - setText(findTestObject("01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a"), "admin@vaadin.com"): Text 'admin@vaadin.com' is set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a'
+
+2019-11-08 09:09:43 - [MESSAGE][PASSED] - Text 'admin@vaadin.com' is set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a'
+
+2019-11-08 09:09:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a'
+
+2019-11-08 09:09:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a'
+
+2019-11-08 09:09:43 - [TEST_STEP][FAILED] - click(findTestObject("01_First_UI/Page_bakery/vaadin-button_Sign in")): Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Login_Admin_Test.run(Login_Admin_Test:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573222155670.run(TempTestSuite1573222155670.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1573219961966.run(Script1573219961966.groovy:27)
+	... 13 more
+)
+
+2019-11-08 09:10:27 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button'. Please recheck the objects properties to make sure the desired element is located. 
+
+2019-11-08 09:10:28 - [MESSAGE][FAILED] - Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Login_Admin_Test.run(Login_Admin_Test:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573222155670.run(TempTestSuite1573222155670.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Script1573219961966.run(Script1573219961966.groovy:27)
+	... 13 more
+)
+[[ATTACHMENT|/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_090915/01_Login/20191108_090915/1573222227887.png]]]]></system-out>
+         <system-err><![CDATA[2019-11-08 09:09:37 - [TEST_CASE][FAILED] - Test Cases/01_First Sample UI_Blue/Login_Admin_Test: Test Cases/01_First Sample UI_Blue/Login_Admin_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Login_Admin_Test.run(Login_Admin_Test:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573222155670.run(TempTestSuite1573222155670.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-08 09:09:17 - [TEST_SUITE][FAILED] - 01_Login: Test Cases/01_First Sample UI_Blue/Login_Admin_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Login_Admin_Test.run(Login_Admin_Test:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573222155670.run(TempTestSuite1573222155670.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-out>
+      <system-err><![CDATA[2019-11-08 09:09:17 - [TEST_SUITE][FAILED] - 01_Login: Test Cases/01_First Sample UI_Blue/Login_Admin_Test FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:79)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:42)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:60)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:616)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords$click$3.call(Unknown Source)
+	at Login_Admin_Test.run(Login_Admin_Test:27)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:337)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:328)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:307)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:299)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:233)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestCaseMainPhase(TestSuiteExecutor.java:169)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:142)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:91)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:157)
+	at com.kms.katalon.core.main.TestCaseMain$startTestSuite$0.call(Unknown Source)
+	at TempTestSuite1573222155670.run(TempTestSuite1573222155670.groovy:36)
+Caused by: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' located by 'By.xpath: //vaadin-login-form[@id='vaadinLoginForm']/vaadin-login-form-wrapper/form/vaadin-button' not found
+	at com.kms.katalon.core.webui.common.WebUiCommonHelper.findWebElement(WebUiCommonHelper.java:1113)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:27)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIAbstractKeyword.findWebElement(WebUIAbstractKeyword.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:52)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 19 more]]></system-err>
+   </testsuite>
+</testsuites>

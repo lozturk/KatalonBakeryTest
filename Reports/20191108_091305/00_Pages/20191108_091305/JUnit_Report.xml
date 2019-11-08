@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="00_Pages" time="13.025" tests="1" failures="0" errors="0">
+   <testsuite name="00_Pages" tests="1" failures="0" errors="0" time="13.025" timestamp="2019-11-08 09:13:07" hostname="lozturk - 172.18.6.22" id="Test Suites/00_Pages">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_091305/00_Pages/20191108_091305"/>
+         <property name="logFiles" value="/Users/lozturk/git/KatalonBakeryTest/Reports/20191108_091305/00_Pages/20191108_091305/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="lozturk - 172.18.6.22"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="katalonVersion" value="7.0.5.1"/>
+         <property name="browser" value="Chrome 78.0.3904.97"/>
+         <property name="hostAddress" value="172.18.6.22"/>
+         <property name="sessionId" value="58968aa8a13469ca885477de2077d8d6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/01_First Sample UI_Blue/VerifyPageTitles_UserPages" time="12.792" classname="Test Cases/01_First Sample UI_Blue/VerifyPageTitles_UserPages" status="PASSED">
+         <system-out><![CDATA[2019-11-08 09:13:07 - [TEST_CASE][PASSED] - Test Cases/01_First Sample UI_Blue/VerifyPageTitles_UserPages: Test Cases/01_First Sample UI_Blue/VerifyPageTitles_UserPages
+
+2019-11-08 09:13:08 - [TEST_STEP][PASSED] - openBrowser("https://bakery-flow.demo.vaadin.com/login"): Browser is opened with url: 'https://bakery-flow.demo.vaadin.com/login'
+
+2019-11-08 09:13:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-11-08 09:13:08 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-11-08 09:13:11 - [MESSAGE][PASSED] - Browser is opened with url: 'https://bakery-flow.demo.vaadin.com/login'
+
+2019-11-08 09:13:11 - [TEST_STEP][PASSED] - setText(findTestObject("01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a"), "barista@vaadin.com"): Text 'barista@vaadin.com' is set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a'
+
+2019-11-08 09:13:12 - [MESSAGE][PASSED] - Text 'barista@vaadin.com' is set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_69d70a'
+
+2019-11-08 09:13:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a"), "aAAOQOuXuiQ="): Text ****** has been set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a'
+
+2019-11-08 09:13:13 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/01_First_UI/Page_bakery/input_Explore the code and customize the st_b9b14a'
+
+2019-11-08 09:13:13 - [TEST_STEP][PASSED] - click(findTestObject("01_First_UI/Page_bakery/vaadin-button_Sign in")): Object: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' is clicked on
+
+2019-11-08 09:13:15 - [MESSAGE][PASSED] - Object: 'Object Repository/01_First_UI/Page_bakery/vaadin-button_Sign in' is clicked on
+
+2019-11-08 09:13:15 - [TEST_STEP][PASSED] - click(findTestObject("01_First_UI/Page_Dashboard/a_Storefront")): Object: 'Object Repository/01_First_UI/Page_Dashboard/a_Storefront' is clicked on
+
+2019-11-08 09:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/01_First_UI/Page_Dashboard/a_Storefront' is clicked on
+
+2019-11-08 09:13:16 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2019-11-08 09:13:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-08 09:13:16 - [TEST_STEP][PASSED] - verifyWindowTitle("Storefront"): null
+
+2019-11-08 09:13:16 - [TEST_STEP][PASSED] - titleWindow = getWindowTitle(): Current window's title is: 'Storefront'
+
+2019-11-08 09:13:16 - [MESSAGE][PASSED] - Current window's title is: 'Storefront'
+
+2019-11-08 09:13:16 - [TEST_STEP][PASSED] - verifyMatch(titleWindow, title, true): Actual text 'Storefront' and expected text 'Storefront' are matched  using regular expression
+
+2019-11-08 09:13:16 - [MESSAGE][PASSED] - Actual text 'Storefront' and expected text 'Storefront' are matched  using regular expression
+
+2019-11-08 09:13:16 - [TEST_STEP][PASSED] - click(findTestObject("01_First_UI/Page_Storefront/a_Dashboard")): Object: 'Object Repository/01_First_UI/Page_Storefront/a_Dashboard' is clicked on
+
+2019-11-08 09:13:16 - [MESSAGE][PASSED] - Object: 'Object Repository/01_First_UI/Page_Storefront/a_Dashboard' is clicked on
+
+2019-11-08 09:13:16 - [TEST_STEP][PASSED] - waitForPageLoad(5, STOP_ON_FAILURE): Wait for page load successfully
+
+2019-11-08 09:13:16 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-08 09:13:16 - [TEST_STEP][PASSED] - refresh(): Refresh successfully
+
+2019-11-08 09:13:18 - [MESSAGE][PASSED] - Refresh successfully
+
+2019-11-08 09:13:18 - [TEST_STEP][PASSED] - waitForPageLoad(3): Wait for page load successfully
+
+2019-11-08 09:13:18 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2019-11-08 09:13:18 - [TEST_STEP][PASSED] - verifyWindowTitle("Dashboard"): null
+
+2019-11-08 09:13:18 - [TEST_STEP][PASSED] - titleWindow = getWindowTitle(): Current window's title is: 'Dashboard'
+
+2019-11-08 09:13:18 - [MESSAGE][PASSED] - Current window's title is: 'Dashboard'
+
+2019-11-08 09:13:18 - [TEST_STEP][PASSED] - verifyMatch(titleWindow, title, true): Actual text 'Dashboard' and expected text 'Dashboard' are matched  using regular expression
+
+2019-11-08 09:13:18 - [MESSAGE][PASSED] - Actual text 'Dashboard' and expected text 'Dashboard' are matched  using regular expression
+
+2019-11-08 09:13:18 - [TEST_STEP][PASSED] - click(findTestObject("01_First_UI/Page_Dashboard/a_Logout")): Object: 'Object Repository/01_First_UI/Page_Dashboard/a_Logout' is clicked on
+
+2019-11-08 09:13:20 - [MESSAGE][PASSED] - Object: 'Object Repository/01_First_UI/Page_Dashboard/a_Logout' is clicked on
+
+2019-11-08 09:13:20 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-11-08 09:13:20 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-11-08 09:13:07 - [TEST_SUITE][PASSED] - 00_Pages: Test Cases/01_First Sample UI_Blue/VerifyPageTitles_UserPages]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

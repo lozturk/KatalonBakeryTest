@@ -29,14 +29,20 @@ WebUI.click(findTestObject('02_Second UI/Page_Bakery/button_Sign in'))
 WebUI.click(findTestObject('02_Second UI/Page_Bakery/div_Storefront'))
 
 // Verify StoreFront link working/ Storefront Page opened
+// wait for 2 seconds
+WebUI.delay(2)
 WebUI.verifyMatch(WebUI.getUrl(), 'https://bakery.demo.vaadin.com/#!storefront', false)
 
 // Verify Dashboard link working/ Dashboard Page opened
 WebUI.click(findTestObject('02_Second UI/Page_Bakery/div_Dashboard'))
+// wait for 2 seconds
+WebUI.delay(2)
 WebUI.verifyMatch(WebUI.getUrl(), 'https://bakery.demo.vaadin.com/#!dashboard', false)
 
-//Verify Logout button working 
+//Verify Logout button working
 WebUI.click(findTestObject('02_Second UI/Page_Bakery/div_Log out'))
+// wait for 2 seconds
+WebUI.delay(2)
 WebUI.verifyMatch(WebUI.getUrl(), 'https://bakery.demo.vaadin.com/login.html#!dashboard', false)
 
 WebUI.closeBrowser()
